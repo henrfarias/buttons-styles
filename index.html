@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Styles</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/devchallenges.png"
+      type="image/x-png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/side-menu.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;600&family=Poppins:wght@500;600&family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="web-container">
+      <div class="menu-container">
+        <aside class="side-menu">
+          <header class="side-menu__header">
+            <h1 class="header__logo"><strong>Dev</strong>challenges.io</h1>
+            <nav class="header__nav">
+              <ul class="nav__menu">
+                <li class="menu__item"><a class="menu__link" href="#">Colors</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Typography</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Spaces</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--active" href="#">Buttons</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Inputs</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Grid</a></li>
+              </ul>
+            </nav>
+          </header>
+        </aside>
+      </div>
+      <div class="content-container">
+        <main class="content">
+          <h2 class="subtitle">Buttons</h2>
+          <section class="buttons_1">
+
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &lt;Button &frasl;&gt; </span>
+                <button class="button-default">Default</button>
+              </div> 
+              <div class="buttons__button">
+                <span> &:hover, &:focus </span>
+                <button class="button-default-focus">Default</button> 
+              </div> 
+            </div>  
+                
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &lt;Button variant="outline" &frasl;&gt; </span>
+                <button class="button-outline">Default</button>  
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &:hover, &:focus </span>
+                <button class="button-outline-focus">Default</button>  
+              </div> 
+            </div>
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &lt;Button variant="text" &frasl;&gt; </span>
+                <button class="button-text">Default</button>  
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &:hover, &:focus </span>
+                <button class="button-text-focus">Default</button>   
+              </div> 
+            </div>  
+
+            <div class="buttons__button buttons__disabledShadow">
+              <span> &lt;Button disabledShadow &frasl;&gt; </span>
+              <button class="button-disabledShadow">Default</button>  
+            </div> 
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &lt;Button disabled &frasl;&gt; </span>
+                <button class="button-disabled" disabled>Default</button>  
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button variant="text" disabled &frasl;&gt; </span>
+                <button class="button-disabled-text" disabled>Default</button>
+              </div> 
+            </div>
+          </section>
+          <section class="buttons_2">
+            <div class="buttons__with-icon">  
+              <div class="buttons__button">
+                <span> &lt;Button startIcon="local qrocery store" &frasl;&gt; </span>
+                <button class="button-start-icon"><img src="./assets/img/add_shopping_cart-black-18dp.svg"/>Default</button>              
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button endIcon="local qrocery store" &frasl;&gt; </span>
+                <button class="button-end-icon">Default <img src="./assets/img/add_shopping_cart-black-18dp.svg"/></button>
+              </div> 
+            </div>
+            <div class="buttons__sizes">
+              <div class="buttons__button">
+                <span> &lt;Button size="sm" &frasl;&gt; </span>
+                <button class="button-sm">Default</button>              
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button size="md" &frasl;&gt; </span>
+                <button class="button-md">Default</button>
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button size="lg" &frasl;&gt; </span>
+                <button class="button-lg">Default</button>
+              </div> 
+            </div>  
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &lt;Button color="default" &frasl;&gt; </span>
+                <button class="button-default">Default</button>
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button color="primary" &frasl;&gt; </span>
+                <button class="button-primary">Default</button>             
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button color="secondary" &frasl;&gt; </span>
+                <button class="button-secondary">Secondary</button>
+              </div> 
+              
+              <div class="buttons__button">
+                <span> &lt;Button color="danger" &frasl;&gt; </span>
+                <button class="button-danger">Danger</button>
+              </div> 
+            </div>  
+            <div class="buttons__group">
+              <div class="buttons__button">
+                <span> &:hover, &:focus </span>
+                <button class="button-default-focus">Default</button>              
+              </div> 
+              
+              <button class="button-primary-focus">Default</button>              
+              
+              <button class="button-secondary-focus">Secondary</button>
+              
+              <button class="button-danger-focus">Danger</button>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">henrfarias &copy; DevChallenges.io </footer>
+      </div>
+    </div>
+  </body>
+</html>
